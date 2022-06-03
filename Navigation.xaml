@@ -1,0 +1,14 @@
+﻿<Window x:Class="_HJEM_IS__NOTIFICATION_SYSTEM1.Navigation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_HJEM_IS__NOTIFICATION_SYSTEM1"
+        mc:Ignorable="d"
+        Title="Navigation" Height="450" Width="800">
+    <Grid Margin="0,0,3.6,13">
+        <Button x:Name="btnViewMessages" Content="View Messages" HorizontalAlignment="Left" Margin="106,52,0,0" VerticalAlignment="Top" Width="129" Height="35" Click="btnViewMessages_Click"/>
+        <Button x:Name="btnSendMessages" Content="Send Email Notification" HorizontalAlignment="Left" Margin="314,52,0,0" VerticalAlignment="Top" Width="222" Height="35" Click="btnSendMessages_Click"/>
+
+    </Grid>
+</Window>
